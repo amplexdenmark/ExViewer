@@ -4,8 +4,38 @@
  *
  * $Id$
  *
- * (C) Copyright 2022 Amplex, fm@amplex.dk
+ * (C) Copyright 2022 Amplex, fm at amplex dot dk
  */
+
+.JavaPart          { foreground: darkmagenta }
+.ClassPart         { foreground: darkmagenta }
+.NumberPart        { foreground: darkgreen }
+.TimeStamp         { foreground: darkblue }
+.LogDebug          { foreground: darkblue }
+.LogInfo           { foreground: darkgreen }
+.LogWarn           { foreground: darkgoldenrod }
+.LogError          { foreground: darkred }
+.ExceptError       { foreground: darkred }
+.ExceptCausedBy    { foreground: darkred;          background: gray }
+.ExceptAmplex      { foreground: darkred }
+.WildflyStartStop  { foreground: black;            background: green }
+.WildflyErrors     { foreground: black;            background: lightcoral }
+
+code {
+  font-family: Consolas, Monaco, monospace;
+}
+
+samp {
+  font-size: 9pt;
+}
+
+pre code {
+  font-size: 12pt;
+}
+
+pre li {
+  font-size: 12pt;
+}
 
 
 /* vim: set sw=2 sts=2 et: */
